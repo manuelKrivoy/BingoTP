@@ -6,4 +6,11 @@ def carton():
     )
     return carton
 
-print(carton())
+
+def columna(carton, nro_columna):
+    return(
+        carton[0][nro_columna],
+        carton[1][nro_columna],
+        carton[2][nro_columna]
+    )
+print(columna(carton(),0))
