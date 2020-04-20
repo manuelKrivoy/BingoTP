@@ -8,4 +8,4 @@ Tarea 1:
 
 Tarea 2:
 -Escribir un test que valide que una fila tenga al menos 1 celda ocupada.
-Realizar de tal forma que nuestro registro de commits tenga una ramificación.
+-Generar ramificación en commits.
