@@ -20,3 +20,21 @@ def test_al_menos_una_celda_por_columna():
             check= check + 1
 
     assert check == 9
+
+def test_filas_no_vacias():
+    mi_carton = carton()
+    contador = 0
+    filas = 0
+    columnas = 0
+    check = 0
+    for columnas in range(3):
+        for filas in range(9):
+            contador += mi_carton[columnas][filas]
+            filas += 1
+        if contador >= 1:
+            check += 1
+        contador = 0
+        filas = 0
+        columnas += 1
+
+    assert check == 3
