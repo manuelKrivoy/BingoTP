@@ -9,3 +9,10 @@ Tarea 1:
 Tarea 2:
 -Escribir un test que valide que una fila tenga al menos 1 celda ocupada.
 -Generar ramificación en commits.
+
+Tarea 3:
+-Crear nuevas ramas.
+-Validar que los números vayan del 1 al 90.
+-Validar de los números aumenten de derecha a izquierda.
+-Validar que los números aumenten en cada columna de arriba hacia abajo.
+-Validar que no haya números repetidos en un cartón.
