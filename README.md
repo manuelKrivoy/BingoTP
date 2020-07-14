@@ -34,7 +34,7 @@ git clone https://github.com/manuelKrivoy/BingoTP.git
 
 ## Uso de código
 
-Tenemos `dos posibles salidas` , la primera es en la `consola` , para esta debemos uasr el siguiente comando:
+Tenemos `dos posibles salidas` , la primera es en la `consola` , para esta debemos usar el siguiente comando:
 
 ### Salida por consola en python
 
