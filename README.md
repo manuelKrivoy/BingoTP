@@ -3,9 +3,9 @@
 
 # TP Bingo
 
-Este es un proyecto hecho para la materia AAT en 2020. La idea es que se genere un carton de bingo que cumpla con ciertas reglas.
+Este es un proyecto hecho para la materia AAT en 2020. El objetivo es que se generen cartones para jugar al bingo que cumplan con diversas reglas. Tenemos la opción de generar una salida en python(consola) y otra en html (Versión WEB)
 
-# Reglas
+## Reglas
 
 * No pueden existir columnas con sus tres celdas ocupadas.
 * Cada carton debe tener 3 y solo 3 columas con solo una celda ocupada.
@@ -19,3 +19,47 @@ Este es un proyecto hecho para la materia AAT en 2020. La idea es que se genere 
 * Los números de las columnas izquierdas son menores que los de las columnas a la derecha.
 * Para una misma columna, sus números están ordenados de menor a mayor de arriba hacia abajo.
 * No pueden existir columnas vacias.
+
+# Cómo generar nuestros cartones aleatorios:
+
+## Clonar repositorio
+
+Para poder utilizar este repositorio y así generar cartones de bingo lo primero que debemos hacer es clonar este repositorio en tu computadora.
+
+Para clonar:
+
+```
+git clone https://github.com/manuelKrivoy/BingoTP.git
+```
+
+## Uso de código
+
+Tenemos `dos posibles salidas` , la primera es en la `consola` , para esta debemos uasr el siguiente comando:
+
+### Salida por consola en python
+
+```
+python src/SalidaBingo.py
+```
+
+### Ejemplo salida por consola
+```
+python src/SalidaBingo.py
+[0, 11, 27, 0, 0, 51, 0, 71, 80]
+[2, 0, 28, 0, 0, 56, 69, 0, 81]
+[7, 18, 0, 33, 44, 0, 0, 78, 0]
+
+```
+
+### Salida web por HTML
+
+```
+python src/WebBingo.py
+```
+### Ejemplo salida WEB
+
+```
+python src/WebBingo.py
+Creado: "salida.html".
+```
+![Ejemplo Bingo Web] (https://github.com/manuelKrivoy/bingo-1/blob/master/imagenes/ejemplo_web.png)
