@@ -56,13 +56,3 @@ python src/bingo.py
 ```
 python src/WebBingo.py
 ```
-### Ejemplo salida WEB, además de generarnos el el archivo html, nos muestra la distribución de celdas
-
-```
-python src/WebBingo.py
-[1, 14, 0, 30, 43, 0, 0, 75, 0]
-[0, 0, 22, 0, 47, 57, 0, 78, 80]
-[8, 18, 0, 36, 0, 0, 60, 0, 88]
-Creado: "salida.html".
-```
-![BINGOWEB](https://github.com/manuelKrivoy/bingo-1/blob/master/imagenes/ejemplo_web.png?raw=true)
