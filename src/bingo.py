@@ -203,3 +203,7 @@ def generar_carton():
         and celdas_vacias_consecutivas(carton)):
             break
     return carton
+
+carton = generar_carton()
+for fila in carton:
+    print(fila)

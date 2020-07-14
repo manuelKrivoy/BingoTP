@@ -39,12 +39,12 @@ Tenemos `dos posibles salidas` , la primera es en la `consola` , para esta debem
 ### Salida por consola en python
 
 ```
-python src/SalidaBingo.py
+python src/bingo.py
 ```
 
 ### Ejemplo salida por consola
 ```
-python src/SalidaBingo.py
+python src/bingo.py
 [0, 11, 27, 0, 0, 51, 0, 71, 80]
 [2, 0, 28, 0, 0, 56, 69, 0, 81]
 [7, 18, 0, 33, 44, 0, 0, 78, 0]
@@ -56,10 +56,13 @@ python src/SalidaBingo.py
 ```
 python src/WebBingo.py
 ```
-### Ejemplo salida WEB
+### Ejemplo salida WEB, además de generarnos el el archivo html, nos muestra la distribución de celdas
 
 ```
 python src/WebBingo.py
+[1, 14, 0, 30, 43, 0, 0, 75, 0]
+[0, 0, 22, 0, 47, 57, 0, 78, 80]
+[8, 18, 0, 36, 0, 0, 60, 0, 88]
 Creado: "salida.html".
 ```
-![Ejemplo Bingo Web] (https://github.com/manuelKrivoy/bingo-1/blob/master/imagenes/ejemplo_web.png)
+![BINGOWEB](https://github.com/manuelKrivoy/bingo-1/blob/master/imagenes/ejemplo_web.png?raw=true)
